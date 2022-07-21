@@ -1,0 +1,19 @@
+{
+  "name": "api_rick_and_morty",
+  "version": "1.0.0",
+  "description": "Consumo de la api ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JDQN/Api_Rick_and_Morty.git"
+  },
+  "author": "Juan David Quimbayo Nuñez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JDQN/Api_Rick_and_Morty/issues"
+  },
+  "homepage": "https://github.com/JDQN/Api_Rick_and_Morty#readme"
+}
