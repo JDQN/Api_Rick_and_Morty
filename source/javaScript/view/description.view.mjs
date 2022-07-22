@@ -1,6 +1,6 @@
 'use strict';
 
-export class IndexView {
+export class DescriptionView {
    #privateBody;
 
    constructor() {
@@ -13,14 +13,13 @@ export class IndexView {
    }
 
 
-
    #createComponent(data){
       let div;
       let img;
       let h1;
       let p;
       let h2;
-      let button;
+
 
       data.forEach((element) => {
          
@@ -37,11 +36,7 @@ export class IndexView {
          h2 = document.createElement('h2');
          h2.innerHTML = `Especie: ${element.species}`;
 
-         button = document.createElement("a");
-         button.innerHTML = `Ver caracteristicas`;
-         button.href = `description.html?id=${element.id}`;
-
-         div.append(h1,img,p,h2,button);
+         div.append(h1,img,p,h2);
          this.#privateBody.append(div);
       })
    }

@@ -18,7 +18,7 @@ export class Character{
       this.#id = id;
       this.#name = name;
       this.#status = status;
-      this.#specie = species;
+      this.#species = species;
       this.#image = image;
    }
 
