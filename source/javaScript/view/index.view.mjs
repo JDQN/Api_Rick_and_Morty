@@ -37,9 +37,10 @@ export class IndexView {
          h2 = document.createElement('h2');
          h2.innerHTML = `Especie: ${element.species}`;
 
-         button = document.createElement("a");
+         button = document.createElement('a');
          button.innerHTML = `Ver caracteristicas`;
          button.href = `description.html?id=${element.id}`;
+         
 
          div.append(h1,img,p,h2,button);
          this.#privateBody.append(div);

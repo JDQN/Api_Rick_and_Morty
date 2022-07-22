@@ -27,7 +27,7 @@ class IndexController {
 
    async init() {
       const characters = await this.#RickAndMortyService.characters
-      this.#privateView.init( characters);
+      this.#privateView.init(characters);
    }
 } 
 

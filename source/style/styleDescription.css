@@ -12,9 +12,10 @@ html{
 
 body{
    display: grid;
-   grid-template-columns: repeat(4, 1fr);
+   grid-template-columns: repeat(1);
    justify-items: center;
    align-items: center;
+   background-color: #000 !important;
 }
 
 
@@ -31,7 +32,7 @@ div{
 }
 
 div:hover{
-   box-shadow: 0px 0px 30px rgb(87, 250, 6);
+   box-shadow: 0px 0px 50px rgb(87, 250, 6);
 }
 
 img{

@@ -44,6 +44,8 @@ export class RickAndMortyService{
       const response = await fetch(`${this.#privateUrl}/character/${id}`); //Creamos una variable que contenga la respuesta de la petición
       const {id:newId,name,status,species,image} = await response.json(); //Creamos una variable que contenga los datos de la respuesta
       return new Character(newId,name,status,species,image); //Devolvemos los datos
+
    }
+   
 }
 
